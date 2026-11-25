@@ -87,10 +87,7 @@ Ouvre ensuite `index.html` dans ton navigateur. C'est tout.
 AureFlow/
 ├── assets/
 │   ├── banner.svg
-│   ├── signature.svg
-│   ├── tableau-de-bord.png
-│   ├── entrainement.png
-│   └── examen-blanc.png
+│   └── signature.svg
 ├── index.html
 ├── README.md
 └── LICENSE
