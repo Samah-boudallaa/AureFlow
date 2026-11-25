@@ -21,20 +21,6 @@ AureFlow rassemble, module par module, tout ce qu'il faut pour préparer une év
 
 Chaque module est une application autonome : un seul fichier, sans installation, sans serveur, sans compte. On l'ouvre dans le navigateur et on travaille.
 
-## Aperçu
-
-**Tableau de bord**
-
-![Tableau de bord](assets/tableau-de-bord.png)
-
-**Entraînement avec correction immédiate**
-
-![Entraînement](assets/entrainement.png)
-
-**Examen blanc**
-
-![Examen blanc](assets/examen-blanc.png)
-
 ## Modules
 
 | Module | Contenu | Statut |
