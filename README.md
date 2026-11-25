@@ -1,6 +1,6 @@
 <div align="center">
 
-# AureFlow
+<img src="assets/banner.svg" alt="AureFlow, par Samah Boudallaa" width="100%">
 
 **Un espace d'étude pensé pour apprendre vite, retenir longtemps et arriver prêt le jour J.**
 
@@ -9,7 +9,7 @@
 ![Dépendances](https://img.shields.io/badge/d%C3%A9pendances-aucune-0f9d58?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-lightgrey?style=flat-square)
 
-[Démo en ligne](https://Samah-boudallaa.github.io/aureflow/) · [Signaler un problème](../../issues) · [Proposer une idée](../../issues/new)
+[Démo en ligne](https://samah-boudallaa.github.io/AureFlow/) · [Signaler un problème](../../issues) · [Proposer une idée](../../issues/new)
 
 </div>
 
@@ -21,12 +21,35 @@ AureFlow rassemble, module par module, tout ce qu'il faut pour préparer une év
 
 Chaque module est une application autonome : un seul fichier, sans installation, sans serveur, sans compte. On l'ouvre dans le navigateur et on travaille.
 
+## Aperçu
+
+**Tableau de bord**
+
+![Tableau de bord](assets/tableau-de-bord.png)
+
+**Entraînement avec correction immédiate**
+
+![Entraînement](assets/entrainement.png)
+
+**Examen blanc**
+
+![Examen blanc](assets/examen-blanc.png)
+
 ## Modules
 
 | Module | Contenu | Statut |
 |---|---|---|
-| `cloud-iot` | Cours, fiches, labo interactif, TD corrigés, banque de 64 questions, examens blancs | Disponible |
-| `module-2` | À venir | Prévu |
+| Cloud & IoT | Cours, fiches, labo interactif, TD corrigés, banque de 64 questions, examens blancs | Disponible |
+
+### Programme couvert
+
+| Chapitre | Titre |
+|---|---|
+| Ch0 | Vue d’ensemble de l’IoT |
+| Ch1 | Systèmes embarqués |
+| Ch2 | Plateforme Arduino |
+| Ch3 | Capteurs et actionneurs |
+| Ch4 | ATmega328 et interruptions |
 
 ## Fonctionnalités
 
@@ -53,15 +76,15 @@ Chaque module est une application autonome : un seul fichier, sans installation,
 - Historique des notes d'examen
 
 **Confort d'utilisation**
-- Thème clair et sombre
+- Thème clair et sombre, qui suit par défaut le réglage de l’appareil
 - Raccourcis clavier : `1` à `4` pour répondre, `Entrée` pour continuer
 - Interface adaptée au téléphone, à la tablette et à l'ordinateur
 
 ## Démarrage rapide
 
 ```bash
-git clone https://github.com/Samah-boudallaa/aureflow.git
-cd aureflow/cloud-iot
+git clone https://github.com/Samah-boudallaa/AureFlow.git
+cd AureFlow
 ```
 
 Ouvre ensuite `index.html` dans ton navigateur. C'est tout.
@@ -70,12 +93,18 @@ Ouvre ensuite `index.html` dans ton navigateur. C'est tout.
 
 1. Va dans **Settings** puis **Pages**.
 2. Choisis la branche `main` et le dossier `/ (root)`.
-3. Enregistre. Le module est accessible à l'adresse `https://Samah-boudallaa.github.io/aureflow/cloud-iot/`.
+3. Enregistre. Le site est accessible à l'adresse `https://samah-boudallaa.github.io/AureFlow/`.
 
 ## Structure du dépôt
 
 ```text
-aureflow/
+AureFlow/
+├── assets/
+│   ├── banner.svg
+│   ├── signature.svg
+│   ├── tableau-de-bord.png
+│   ├── entrainement.png
+│   └── examen-blanc.png
 ├── index.html
 ├── README.md
 └── LICENSE
@@ -120,6 +149,10 @@ Les suggestions sont bienvenues.
 4. Envoie la branche : `git push origin ajout-questions`
 5. Ouvre une Pull Request.
 
+## Auteure
+
+**Samah Boudallaa** · [Profil GitHub](https://github.com/Samah-boudallaa)
+
 ## Licence
 
 Distribué sous licence MIT. Voir le fichier `LICENSE`.
@@ -127,5 +160,7 @@ Distribué sous licence MIT. Voir le fichier `LICENSE`.
 <div align="center">
 
 Fait avec soin pour réussir ses évaluations.
+
+<img src="assets/signature.svg" alt="Samah Boudallaa" width="420">
 
 </div>
