@@ -75,12 +75,6 @@ cd AureFlow
 
 Ouvre ensuite `index.html` dans ton navigateur. C'est tout.
 
-### Publier sur GitHub Pages
-
-1. Va dans **Settings** puis **Pages**.
-2. Choisis la branche `main` et le dossier `/ (root)`.
-3. Enregistre. Le site est accessible à l'adresse `https://samah-boudallaa.github.io/AureFlow/`.
-
 ## Structure du dépôt
 
 ```text
