@@ -76,8 +76,7 @@ Ouvre ensuite `index.html` dans ton navigateur. C'est tout.
 
 ```text
 aureflow/
-├── cloud-iot/
-│   └── index.html      # application complète du module
+├── index.html
 ├── README.md
 └── LICENSE
 ```
